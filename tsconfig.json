@@ -4,23 +4,18 @@
     "forceConsistentCasingInFileNames": true,
     "module": "esnext",
     "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
     "jsx": "react",
     "declaration": true,
     "sourceMap": true,
     "experimentalDecorators": true,
     "skipLibCheck": true,
-    "typeRoots": [
-      "./node_modules/@types",
-      "./node_modules/@microsoft"
-    ],
-    "types": [
-      "es6-promise",
-      "webpack-env"
-    ],
-    "lib": [
-      "es5",
-      "dom",
-      "es2015.collection"
-    ]
+    "strict": true,
+    "noUnusedLocals": true,
+    "typeRoots": ["./node_modules/@types", "./node_modules/@microsoft"],
+    "types": ["es6-promise", "webpack-env"],
+    "lib": ["es5", "dom", "es2015.collection"]
   }
 }
