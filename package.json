@@ -6,6 +6,12 @@
   "engines": {
     "node": ">=0.10.0"
   },
+  "scripts": {
+    "build": "gulp bundle",
+    "clean": "gulp clean",
+    "test": "gulp test",
+    "fix": "rimraf .\\node_modules\\@microsoft\\gulp-core-build-typescript\\node_modules\\typescript"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
